@@ -1,9 +1,11 @@
 package com.javaspring.springdemo;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class CricketCoach implements Coach {
 	
 	private FortuneService fortuneService;
-
+	
 	private String emailAddress;
 	private String team;
 	
